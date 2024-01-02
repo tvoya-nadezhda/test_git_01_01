@@ -3,11 +3,8 @@ package tvoya.nadezhda;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println(getMessage());
-    }
+    private static String msg = "Hello qa.guru!";
 
-    private static string getMessage (){
-        return "hello and!!!"
+    public static void main(String... args) {
+        System.out.println(msg);
     }
-}}
