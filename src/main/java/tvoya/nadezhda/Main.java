@@ -2,12 +2,10 @@ package tvoya.nadezhda;
 
 
 public class Main {
-
-    public static void main(String[] args) {
-        System.out.println(getMessage());
+public static void main(String[] args) {
+   System.out.println(getMessage());
     }
 
-    private static string getMessage (){
-        return "hello and!!!"
-    }
+    private static String getMessage() {
+        return "Hello qa.guru";
 }}
